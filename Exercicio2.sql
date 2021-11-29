@@ -1,5 +1,6 @@
 create database db_pizzaria_legal;
 use db_pizzaria_legal;
+
 create table tb_categoria (
 	id_categoria bigint auto_increment,
     nomeCategoria varchar(15),
@@ -41,3 +42,4 @@ select*from tb_pizza where numeroCategoria = 1;
 
 drop table tb_pizza;
 drop table tb_categoria;
+drop database db_pizzaria_legal;
