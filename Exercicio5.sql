@@ -35,3 +35,4 @@ select*from tb_produto where nomeProd like "%C%";
 select*from tb_produto inner join tb_categoria on tb_produto.id_cat=tb_categoria.id_cat;
 select*from tb_produto where id_cat = 1; 
 
+drop database db_construindo_a_nossa_vida;
