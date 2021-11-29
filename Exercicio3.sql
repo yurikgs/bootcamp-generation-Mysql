@@ -37,3 +37,6 @@ select*from tb_remedio where preco>3 and preco<60;
 select*from tb_remedio where nome like '%B%';
 select * from tb_remedio inner join tb_categoria on tb_categoria.id_categoria=tb_remedio.id_categoria;
 select*from tb_remedio where id_categoria = 3;
+
+
+drop database db_farmacia_do_bem;
